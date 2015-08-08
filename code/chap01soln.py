@@ -48,7 +48,7 @@ def ValidatePregnum(resp):
 
     # make the map from caseid to list of pregnancy indices
     preg_map = nsfg.MakePregMap(preg)
-    
+
     # iterate through the respondent pregnum series
     for index, pregnum in resp.pregnum.iteritems():
         caseid = resp.caseid[index]
